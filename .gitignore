@@ -1,0 +1,8 @@
+# 文件中转区，运行时生成，不入库
+.data/
+
+__pycache__/
+*.py[cod]
+
+.DS_Store
+Thumbs.db
