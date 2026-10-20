@@ -6,6 +6,21 @@
 
 ## 用法
 
+### 桌面图标（推荐）
+
+装一次，以后双击桌面图标就能用：
+
+```powershell
+pwsh install.ps1
+```
+
+桌面会出现「局域网剪贴板」图标，双击即启动服务并自动打开浏览器。
+图标路径自适应 —— 项目放在哪就指向哪，不写死任何绝对路径。
+
+卸载：`pwsh install.ps1 -Uninstall`
+
+### 命令行启动
+
 ```powershell
 pwsh start.ps1
 ```
